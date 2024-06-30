@@ -14,8 +14,6 @@ from datetime import datetime
 pd.set_option('display.width', 300)
 pd.set_option('display.max_columns', None)
 
-information = pd.read_csv('dataloader构建/研究范围信息.csv', encoding='utf-8')
-
 class Config:
     def __init__(self):
         self.num_epochs = 1
@@ -243,7 +241,7 @@ def train_model(i, model,
 
 seq_len1 = config.seq_len
 seq1 = str(seq_len1)
-for i in range(len(information)):
+for i in range(4): 
     m = str(i)
     for j in range(1, 3):
         n = str(j)
