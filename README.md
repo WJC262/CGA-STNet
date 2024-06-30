@@ -4,9 +4,6 @@ This repository contains the implementation of CGA-STNet, a model designed for p
 
 ## Directory Structure
 
-- **dataloader构建**: Contains a CSV file with research information.
-  - `研究范围信息.csv`
-
 - **layers**: Contains the model layers and implementations.
   - `__init__.py`
   - `Conv_Blocks.py`
