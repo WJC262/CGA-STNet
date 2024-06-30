@@ -13,7 +13,8 @@ This repository contains the implementation of CGA-STNet, a model designed for p
   - `Embed.py`
 
 - **output**: Directory for output files.
-  - `CNN_TimesNet_cga.py`
+
+- **CNN_TimesNet_cga.py**: Our proposed model file.
 
 - **main.py**: Main script to run the model.
 
