@@ -4,13 +4,6 @@ This repository contains the implementation of CGA-STNet, a model designed for p
 
 ## Directory Structure
 
-- **data**: Contains datasets for Beijing and Shenzhen, including CSV and PKL files.
-  - `beijing.csv`
-  - `shenzhen.csv`
-  - `resampling_data_*.pkl`
-  - `travel_dict_*.pkl`
-  - `travel_list_shape.pkl`
-
 - **dataloader构建**: Contains a CSV file with research information.
   - `研究范围信息.csv`
 
@@ -28,11 +21,17 @@ This repository contains the implementation of CGA-STNet, a model designed for p
 
 - Python 3.8+
 - Required libraries:
-  - numpy
+  - warnings
   - pandas
+  - numpy
+  - time
   - torch
-  - scikit-learn
-  - matplotlib
+  - tqdm
+  - csv
+  - datetime
+  - pickle
+  - gc
+
 
 ## Installation
 
