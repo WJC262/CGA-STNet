@@ -7,7 +7,7 @@ import torch.optim as optim
 import pickle
 import torch
 import torch.nn as nn
-import CNN_TimesNet_cga as tn
+import CGA-STNet as tn
 import csv
 from datetime import datetime
 
