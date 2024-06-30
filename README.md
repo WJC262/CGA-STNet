@@ -2,6 +2,10 @@
 
 This repository contains the implementation of CGA-STNet, a model designed for predicting dockless shared bicycle demand, incorporating multiple spatial features and time periodicity.
 
+## Paper Overview
+
+The CGA-STNet model is developed to address the challenges of efficiently scheduling dockless shared bicycles due to their uneven distribution across time and space. By integrating multiple spatial features and time periodicity, the model effectively predicts the demand for shared bicycles, thus optimizing the scheduling and improving the system's efficiency.
+
 ## Directory Structure
 
 - **layers**: Contains the model layers and implementations.
